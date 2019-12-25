@@ -164,12 +164,12 @@ for index,sel in enumerate(course_sel):
                         meet_start= meet_start+am_pm
 
                 #convert time to datetime object
-                start_time = parser.parse(dates[0]+" "+meet_start)
-                end_time = parser.parse(dates[2]+" "+meet_end)
+                #start_time = parser.parse(dates[0]+" "+meet_start)
+                #end_time = parser.parse(dates[2]+" "+meet_end)
 
                 #add start/end time to course dictionary
-                course['start_time']=start_time
-                course['end_time']=end_time
+                course['start_time']=meet_start
+                course['end_time']=meet_end
                 
         course_list.append(course_array)
 
@@ -186,11 +186,10 @@ driver.close()
 #BRAINSTORM
 #first class selection determined by scarcity, display options for least dependent class then 
 #do this over and over again.
-class_file= open("class_json.txt", "w")
-class_name='{'
+class_file= open("test.txt", "w")
+
 for course in course_list:
-    class_name= class_name+course[0]['name']+':\n'
-    class_file.write(class_name)
+
     for index,option in enumerate(course):
         if(index == 0):
             class_string= '['+str(option)
@@ -204,8 +203,8 @@ for course in course_list:
             class_string= class_string+',\n'        
         class_file.write(class_string)
     class_file.write('],\n')
-    class_name=''
-class_file.write('}')
+    
+
 
 
 class_file.close()
