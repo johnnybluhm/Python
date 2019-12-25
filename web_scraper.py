@@ -46,6 +46,8 @@ wait = WebDriverWait(driver, 1)
 course_list = []
 course_sel = final_string
 
+#TEST ARRAY = course_sel = ['CSCI 3002', 'CSCI 3753', 'MATH 1150']
+
 #after for loop array with each element being an array of class objects is available
 for index,sel in enumerate(course_sel):
 
@@ -64,8 +66,11 @@ for index,sel in enumerate(course_sel):
     #submits the form
     inputElement.submit()
 
-    #give ajax time to laod
-    wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "result__code")))
+    #give ajax time to load
+    try:
+        wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "result__code")))
+    except:
+        pass
 
     getNodes = 'var results =document.getElementsByClassName("result__code");\n'
     loop = 'for(var i=0;i<results.length;i++){\n'
@@ -181,15 +186,27 @@ driver.close()
 #BRAINSTORM
 #first class selection determined by scarcity, display options for least dependent class then 
 #do this over and over again.
-class_file= open("test.txt", "w")
+class_file= open("class_json.txt", "w")
+class_name='{'
 for course in course_list:
-    class_name= course[0]['name']+':\n'
+    class_name= class_name+course[0]['name']+':\n'
     class_file.write(class_name)
-    for option in course:
-        class_string = str(option)
-        class_string= class_string+'\n'        
+    for index,option in enumerate(course):
+        if(index == 0):
+            class_string= '['+str(option)
+            class_string= class_string+',\n' 
+        elif(index==(len(course)-1)):
+            class_string= str(option)
+            class_string= class_string+'\n' 
+        else:
+
+            class_string = str(option)
+            class_string= class_string+',\n'        
         class_file.write(class_string)
-    class_file.write('\n')
+    class_file.write('],\n')
+    class_name=''
+class_file.write('}')
+
 
 class_file.close()
     
