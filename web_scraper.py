@@ -151,14 +151,14 @@ for index,sel in enumerate(course_sel):
                 if(len(meet_start)<2):
                     am_pm= meet_end[-1]
                     meet_start= '0'+meet_start+':00'+am_pm
-                #if start time has 2 digits just add colon and zeroes
+                #if start time has 2 digits just add zeroes
                 elif(len(meet_start)<3):
                     am_pm= meet_end[-1]
                     meet_start= meet_start+':00'+am_pm
                 #just add am/pm to start time
                 else:
                     if(meet_start[-1]=='a' or meet_start[-1]=='p'):
-                        meet_start=meet_start
+                        meet_start=meet_start[0:2]+':00'+meet_start[-1]
                     else:
                         am_pm= meet_end[-1]
                         meet_start= meet_start+am_pm
