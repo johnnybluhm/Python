@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
 from dateutil import parser
-import pandas as pd
 from datetime import datetime
 from pprint import pprint
 from selenium.webdriver.common.by import By
@@ -46,7 +45,8 @@ wait = WebDriverWait(driver, 1)
 course_list = []
 course_sel = final_string
 
-#TEST ARRAY = course_sel = ['CSCI 3002', 'CSCI 3753', 'MATH 1150']
+#TEST ARRAY
+#course_sel = ['ITAL 1020', 'HIST 4526', 'SCAN 1202', 'CLAS 1110', 'HIST 4343', 'DNCE 1017']
 
 #after for loop array with each element being an array of class objects is available
 for index,sel in enumerate(course_sel):
@@ -112,7 +112,8 @@ for index,sel in enumerate(course_sel):
                 #add key,value pair of course data to dictionary
                 course_dict[parse[0]]=parse[1]
             #add dictionary to course array
-            course_dict['name']=sel
+            split_name = sel.split()
+            course_dict['name']=split_name[0]+'_'+split_name[1]
             course_array.append(course_dict)
 
         #SAMPLE course_dict
@@ -142,6 +143,8 @@ for index,sel in enumerate(course_sel):
                 #add start/end time to course dictionary
                 course['start_time']="online"
                 course['end_time']="online"
+                course['start_date']="online"
+                course['end_date']="online"
             #parse time
             else:
                 course['Meets:']=meet_days
@@ -164,12 +167,14 @@ for index,sel in enumerate(course_sel):
                         meet_start= meet_start+am_pm
 
                 #convert time to datetime object
-                #start_time = parser.parse(dates[0]+" "+meet_start)
-                #end_time = parser.parse(dates[2]+" "+meet_end)
-
+                start_time = parser.parse(dates[0]+" "+meet_start)
+                end_time = parser.parse(dates[2]+" "+meet_end)
+                
                 #add start/end time to course dictionary
-                course['start_time']=meet_start
-                course['end_time']=meet_end
+                course['start_time']=start_time.strftime("%H,%M,%S")
+                course['end_time']=end_time.strftime("%H,%M,%S")
+                course['start_date']=start_time.strftime("%Y,%m,%d")
+                course['end_date']=end_time.strftime("%Y,%m,%d")
                 
         course_list.append(course_array)
 
@@ -186,7 +191,7 @@ driver.close()
 #BRAINSTORM
 #first class selection determined by scarcity, display options for least dependent class then 
 #do this over and over again.
-class_file= open("test.txt", "w")
+class_file= open("class_array.txt", "w")
 
 for course in course_list:
 
@@ -203,15 +208,33 @@ for course in course_list:
             class_string= class_string+',\n'        
         class_file.write(class_string)
     class_file.write('],\n')
-    
+
+
 
 
 
 class_file.close()
+db_file= open("insert_tables.sql", "w")
     
-    
+for course in course_list:
 
+    for index,option in enumerate(course):
+        db_string ='INSERT INTO course_data\n VALUES\n(\n'
+        db_string += option['Class Nbr:']+',\n'
+        db_string += option['Section #:']+',\n'
+        db_string += '\''+option['Type:']+'\',\n'
+        db_string += '\''+option['Campus:']+'\',\n'
+        db_string += '\''+option['Status:']+'\',\n'
+        db_string += 'make_date('+option['start_date']+'),\n'
+        db_string += 'make_date('+option['end_date']+'),\n'
+        db_string += '\''+option['name']+'\',\n'
+        db_string += 'make_time('+option['start_time']+'),\n'
+        db_string += 'make_time('+option['end_time']+'),\n'
+        db_string += '\''+option['Meets:']+'\',\n'
+        db_string += '\''+option['Instructor:']+'\'\n);\n'
+        db_file.write(db_string)
 
+db_file.close()
 print("executed normally")
 
 
