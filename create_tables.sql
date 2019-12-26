@@ -1,4 +1,4 @@
-CREATE TABLE course_data(
+CREATE TABLE course_test(
   class_num INTEGER,
   section_num INTEGER,
   lec_type VARCHAR(10),

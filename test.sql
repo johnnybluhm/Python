@@ -46,7 +46,7 @@ make_time(10,45,00),
 'TTh',
 'A. Raggio'
 );
-INSERT INTO course_data
+INSERT INTO course_test
  VALUES
 (
 31826,
@@ -60,7 +60,24 @@ make_date(2019,04,30),
 make_time(14,00,00),
 make_time(15,15,00),
 'TTh',
-'R. Callier'
+'R. Callier',
+INSERT INTO course_test
+ VALUES
+(
+31826,
+001,
+'LEC',
+'Main',
+'Waitlisted',
+make_date(2019,01,13),
+make_date(2019,04,30),
+'CLAS_1110',
+make_time(14,00,00),
+make_time(15,15,00),
+'TTh',
+'R. Callier',
+"{'Class Nbr:': '29448', 'Section #:': '001', 'Type:': 'LEC', 'Campus:': 'Main', 'Meets:': 'MW', 'Instructor:': '', 'Status:': 'Waitlisted', 'Dates:': '01-13 to 04-30', 'name': 'CSCI_3010', 'start_time': '16,30,00', 'end_time': '17,45,00', 'start_date': '2019,01,13', 'end_date': '2019,04,30'}"
+);
 );
 INSERT INTO course_data
  VALUES

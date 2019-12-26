@@ -196,8 +196,18 @@ class_file= open("class_array.txt", "w")
 for course in course_list:
 
     for index,option in enumerate(course):
+        # option['class_num'] = option['Class Nbr:']
+        # option['section_num'] = option['Section #:']
+        # option['type'] = option['Type:']
+        # option['campus'] = option['Campus:']
+        # option['days'] = option['Meets:']
+        # option['status'] = option['Status:']
+        # option['campus'] = option['Campus:']
+        # option['dates'] = option['Dates:']
+        # option['instructor'] = option['Instructor:']
+        
         if(index == 0):
-            class_string= '['+str(option)
+            class_string= str(option)
             class_string= class_string+',\n' 
         elif(index==(len(course)-1)):
             class_string= str(option)
@@ -207,7 +217,7 @@ for course in course_list:
             class_string = str(option)
             class_string= class_string+',\n'        
         class_file.write(class_string)
-    class_file.write('],\n')
+    class_file.write(',\n')
 
 
 
