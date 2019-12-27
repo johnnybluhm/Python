@@ -141,10 +141,13 @@ for index,sel in enumerate(course_sel):
                 meet_start='online'
                 meet_end='online'
                 #add start/end time to course dictionary
-                course['start_time']="online"
-                course['end_time']="online"
-                course['start_date']="online"
-                course['end_date']="online"
+                course['start_time']="0,0,0"
+                course['end_time']="0,0,0"
+                start_time = parser.parse(dates[0])
+                end_time = parser.parse(dates[2])
+                course['start_date']=start_time.strftime("%Y,%m,%d")
+                course['end_date']=end_time.strftime("%Y,%m,%d")
+                course['Meets:']='online'
             #parse time
             else:
                 course['Meets:']=meet_days

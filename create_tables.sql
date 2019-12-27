@@ -1,4 +1,4 @@
-CREATE TABLE course_test(
+CREATE TABLE course_data(
   class_num INTEGER,
   section_num INTEGER,
   lec_type VARCHAR(10),
@@ -9,7 +9,8 @@ CREATE TABLE course_test(
   course_name VARCHAR(30),
   start_time TIME,
   end_time TIME,
-  meet_days VARCHAR(7),
-  instructor VARCHAR(30)
+  meet_days VARCHAR(15),
+  instructor VARCHAR(30),
+  PRIMARY KEY (class_num)
   );
 
