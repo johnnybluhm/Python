@@ -1,189 +1,125 @@
 INSERT INTO course_data
  VALUES
 (
-29173,
+39915,
 100,
 'LEC',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
 'CSCI_3002',
-make_time(12,30,00),
-make_time(13,45,00),
-'TTh',
-'S. Manikonda Keshavaiah Naidu'
-);
-INSERT INTO course_data
- VALUES
-(
-38877,
-200,
-'LEC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3002',
-make_time(08,00,00),
-make_time(09,15,00),
-'MW',
-'S. Manikonda Keshavaiah Naidu'
-);
-INSERT INTO course_data
- VALUES
-(
-29468,
-101,
-'REC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3002',
-make_time(16,00,00),
-make_time(16,50,00),
-'Th',
-'C. Naik'
-);
-INSERT INTO course_data
- VALUES
-(
-29469,
-102,
-'REC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3002',
-make_time(17,00,00),
-make_time(17,50,00),
-'Th',
-''
-);
-INSERT INTO course_data
- VALUES
-(
-29467,
-103,
-'REC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3002',
-make_time(08,00,00),
-make_time(08,50,00),
-'F',
-'V. Srikanth Koushik'
-);
-INSERT INTO course_data
- VALUES
-(
-29527,
-104,
-'REC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3002',
-make_time(13,00,00),
-make_time(13,50,00),
-'F',
-'D. Athoopallil'
-);
-INSERT INTO course_data
- VALUES
-(
-29470,
-105,
-'REC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3002',
-make_time(14,00,00),
-make_time(14,50,00),
-'F',
-'D. Guinness'
-);
-INSERT INTO course_data
- VALUES
-(
-38878,
-201,
-'REC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3002',
-make_time(08,00,00),
-make_time(08,50,00),
-'F',
-'V. Gadiraju'
-);
-INSERT INTO course_data
- VALUES
-(
-29448,
-001,
-'LEC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3010',
-make_time(16,30,00),
-make_time(17,45,00),
-'MW',
-''
-);
-INSERT INTO course_data
- VALUES
-(
-29528,
-002,
-'LEC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3010',
 make_time(11,00,00),
-make_time(12,15,00),
+make_time(12,25,00),
 'TTh',
-'F. Muzny'
+'M. Alistar'
 );
 INSERT INTO course_data
  VALUES
 (
-29247,
-001,
+27035,
+110,
 'LEC',
 'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3002',
+make_time(11,00,00),
+make_time(12,25,00),
+'TTh',
+'M. Alistar'
+);
+INSERT INTO course_data
+ VALUES
+(
+27692,
+111,
+'REC',
+'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3202',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3002',
+make_time(15,55,00),
+make_time(16,45,00),
+'Th',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+27695,
+112,
+'REC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3002',
+make_time(17,30,00),
+make_time(18,20,00),
+'Th',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+27693,
+113,
+'REC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3002',
+make_time(09,10,00),
 make_time(10,00,00),
-make_time(10,50,00),
-'MWF',
-'R. Tutmaher'
+'F',
+''
 );
 INSERT INTO course_data
  VALUES
 (
-29402,
+27694,
+114,
+'REC',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3002',
+make_time(13,50,00),
+make_time(14,40,00),
+'F',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+27915,
+115,
+'REC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3002',
+make_time(15,00,00),
+make_time(15,50,00),
+'F',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+26941,
 001,
 'LEC',
 'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
 'CSCI_3287',
 make_time(15,00,00),
 make_time(15,50,00),
@@ -193,2096 +129,976 @@ make_time(15,50,00),
 INSERT INTO course_data
  VALUES
 (
-41410,
+28238,
 002,
 'LEC',
 'Main',
 'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
 'CSCI_3287',
-make_time(17,00,00),
-make_time(18,15,00),
+make_time(17,30,00),
+make_time(18,45,00),
 'TTh',
 'A. Shrestha'
 );
 INSERT INTO course_data
  VALUES
 (
-36466,
-101,
-'LAB',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3302',
-make_time(14,00,00),
-make_time(15,40,00),
-'W',
-'S. Agrawal'
-);
-INSERT INTO course_data
- VALUES
-(
-36465,
-100,
-'LEC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3302',
-make_time(15,30,00),
-make_time(16,45,00),
-'T',
-'A. Roncone'
-);
-INSERT INTO course_data
- VALUES
-(
-27350,
-100,
+40680,
+500,
 'LEC',
 'Main',
 'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3403',
+make_date(2021,08,23),
+make_date(2021,12,10),
+'CSCI_3287',
 make_time(14,00,00),
 make_time(15,15,00),
 'TTh',
-'M. Niemiec'
-);
-INSERT INTO course_data
- VALUES
-(
-27351,
-101,
-'REC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3403',
-make_time(17,00,00),
-make_time(17,50,00),
-'Th',
-'A. Fernandes'
-);
-INSERT INTO course_data
- VALUES
-(
-27352,
-102,
-'REC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3403',
-make_time(18,00,00),
-make_time(18,50,00),
-'Th',
 ''
 );
 INSERT INTO course_data
  VALUES
 (
-27353,
-103,
-'REC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3403',
-make_time(08,00,00),
-make_time(08,50,00),
-'F',
-'A. Prakash'
-);
-INSERT INTO course_data
- VALUES
-(
-27354,
-104,
-'REC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3403',
-make_time(14,00,00),
-make_time(14,50,00),
-'F',
-'A. Gupta'
-);
-INSERT INTO course_data
- VALUES
-(
-27355,
-105,
-'REC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3403',
-make_time(15,00,00),
-make_time(15,50,00),
-'F',
-'I. Lee'
-);
-INSERT INTO course_data
- VALUES
-(
-29187,
+39670,
 001,
 'LEC',
 'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3656',
-make_time(09,30,00),
-make_time(10,45,00),
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3434',
+make_time(11,00,00),
+make_time(12,25,00),
 'TTh',
-'J. Kallen-Brown'
+'R. Frongillo'
 );
 INSERT INTO course_data
  VALUES
 (
-21394,
+27191,
+002,
+'LEC',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3434',
+make_time(11,00,00),
+make_time(12,25,00),
+'TTh',
+'R. Frongillo'
+);
+INSERT INTO course_data
+ VALUES
+(
+27479,
 001,
 'LEC',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3656',
+make_time(11,00,00),
+make_time(12,20,00),
+'MWF',
+'P. Constantine'
+);
+INSERT INTO course_data
+ VALUES
+(
+17014,
+001,
+'LEC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
 'APPM_4650',
-make_time(09,00,00),
-make_time(09,50,00),
+make_time(09,10,00),
+make_time(10,00,00),
 'MWF',
 ''
 );
 INSERT INTO course_data
  VALUES
 (
-25531,
+21492,
 002,
 'LEC',
 'Main',
 'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
 'APPM_4650',
-make_time(09,00,00),
-make_time(09,50,00),
+make_time(13,50,00),
+make_time(14,40,00),
 'MWF',
-'J. Fox'
+'A. Gillman'
 );
 INSERT INTO course_data
  VALUES
 (
-29658,
+39525,
 001,
 'LEC',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
 'CSCI_3702',
-make_time(08,00,00),
-make_time(09,15,00),
-'TTh',
-'K. Carston'
+make_time(0,0,0),
+make_time(0,0,0),
+'online',
+'Carston/Carston'
 );
 INSERT INTO course_data
  VALUES
 (
-27958,
+39704,
 100,
 'LEC',
 'Main',
 'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
 'CSCI_3753',
-make_time(11,00,00),
-make_time(12,15,00),
-'TTh',
-'T. Vu'
-);
-INSERT INTO course_data
- VALUES
-(
-27961,
-101,
-'REC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3753',
-make_time(18,00,00),
-make_time(18,50,00),
-'Th',
-'P. Prahladan'
-);
-INSERT INTO course_data
- VALUES
-(
-27959,
-102,
-'REC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3753',
-make_time(11,00,00),
-make_time(11,50,00),
-'F',
-'A. Nguyen'
-);
-INSERT INTO course_data
- VALUES
-(
-27960,
-103,
-'REC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3753',
-make_time(12,00,00),
-make_time(12,50,00),
-'F',
-'C. Godley'
-);
-INSERT INTO course_data
- VALUES
-(
-28726,
-104,
-'REC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3753',
-make_time(13,00,00),
-make_time(13,50,00),
-'F',
-'Z. Al-Ali'
-);
-INSERT INTO course_data
- VALUES
-(
-29672,
-001,
-'LEC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3832',
+make_time(12,45,00),
 make_time(14,00,00),
-make_time(14,50,00),
-'MWF',
-'F. Muzny'
-);
-INSERT INTO course_data
- VALUES
-(
-29663,
-001,
-'LEC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4113',
-make_time(14,00,00),
-make_time(15,15,00),
 'TTh',
 'C. Herman'
 );
 INSERT INTO course_data
  VALUES
 (
-28522,
+27027,
+110,
+'LEC',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3753',
+make_time(12,45,00),
+make_time(14,00,00),
+'TTh',
+'C. Herman'
+);
+INSERT INTO course_data
+ VALUES
+(
+27028,
+111,
+'REC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3753',
+make_time(10,20,00),
+make_time(11,10,00),
+'F',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+27029,
+112,
+'REC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3753',
+make_time(11,00,00),
+make_time(12,20,00),
+'F',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+27030,
+113,
+'REC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3753',
+make_time(12,40,00),
+make_time(13,30,00),
+'F',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+27145,
+114,
+'REC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3753',
+make_time(13,50,00),
+make_time(14,40,00),
+'F',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+25348,
 001,
 'LEC',
 'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4239',
-make_time(17,00,00),
-make_time(19,30,00),
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4229',
+make_time(17,30,00),
+make_time(20,00,00),
 'Th',
 'W. Schreuder'
 );
 INSERT INTO course_data
  VALUES
 (
-36310,
-001,
+28243,
+001B,
 'LEC',
 'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4273',
-make_time(11,00,00),
-make_time(12,15,00),
-'TTh',
-'C. Herman'
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4229',
+make_time(0,0,0),
+make_time(0,0,0),
+'online',
+'W. Schreuder'
 );
 INSERT INTO course_data
  VALUES
 (
-29611,
-001,
-'LEC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4314',
-make_time(12,30,00),
-make_time(13,45,00),
-'TTh',
-'O. Peleg'
-);
-INSERT INTO course_data
- VALUES
-(
-28729,
-001,
-'LEC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4446',
-make_time(09,30,00),
-make_time(10,45,00),
-'TTh',
-'E. Bradley'
-);
-INSERT INTO course_data
- VALUES
-(
-32133,
+27732,
 001,
 'LEC',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4253',
+make_time(12,45,00),
+make_time(14,00,00),
+'TTh',
+'D. Grunwald'
+);
+INSERT INTO course_data
+ VALUES
+(
+39655,
+001B,
+'LEC',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4253',
+make_time(0,0,0),
+make_time(0,0,0),
+'online',
+'D. Grunwald'
+);
+INSERT INTO course_data
+ VALUES
+(
+25350,
+001,
+'LEC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4273',
+make_time(12,45,00),
+make_time(14,00,00),
+'TTh',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+40570,
+003,
+'LEC',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
 'CSCI_4448',
-make_time(12,00,00),
-make_time(12,50,00),
+make_time(10,20,00),
+make_time(11,10,00),
 'MWF',
 'B. Montgomery'
 );
 INSERT INTO course_data
  VALUES
 (
-27759,
-001,
-'LEC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4593',
-make_time(12,00,00),
-make_time(12,50,00),
-'MWF',
-'S. Sheafor'
-);
-INSERT INTO course_data
- VALUES
-(
-32135,
-001,
-'LEC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4622',
-make_time(14,00,00),
-make_time(14,50,00),
-'MWF',
-'G. Kim'
-);
-INSERT INTO course_data
- VALUES
-(
-39582,
-001B,
+40572,
+003B,
 'LEC',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4622',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4448',
 make_time(0,0,0),
 make_time(0,0,0),
 'online',
-'G. Kim'
+'B. Montgomery'
 );
 INSERT INTO course_data
  VALUES
 (
-29329,
-001,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4802',
-make_time(17,00,00),
-make_time(18,15,00),
-'T',
-'R. Frongillo'
-);
-INSERT INTO course_data
- VALUES
-(
-29151,
+27510,
 001,
 'LEC',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4809',
-make_time(17,00,00),
-make_time(18,15,00),
-'MW',
-'R. King'
-);
-INSERT INTO course_data
- VALUES
-(
-42171,
-008,
-'LEC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4830',
-make_time(16,00,00),
-make_time(17,15,00),
-'M',
-'W. Scaife'
-);
-INSERT INTO course_data
- VALUES
-(
-42078,
-009,
-'LEC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4830',
-make_time(11,00,00),
-make_time(13,30,00),
-'M',
-'M. Gross'
-);
-INSERT INTO course_data
- VALUES
-(
-42047,
-010,
-'LEC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4830',
-make_time(10,00,00),
-make_time(12,30,00),
-'W',
-'Y. Do'
-);
-INSERT INTO course_data
- VALUES
-(
-29410,
-001,
-'LEC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4831',
-make_time(09,00,00),
-make_time(09,50,00),
-'MWF',
-'I. Fleming'
-);
-INSERT INTO course_data
- VALUES
-(
-22260,
-001,
-'LEC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'APPM_4120',
-make_time(11,00,00),
-make_time(11,50,00),
-'MWF',
-'D. Vernerey'
-);
-INSERT INTO course_data
- VALUES
-(
-22258,
-001,
-'LEC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'MATH_4120',
-make_time(11,00,00),
-make_time(11,50,00),
-'MWF',
-'D. Vernerey'
-);
-INSERT INTO course_data
- VALUES
-(
-29019,
-001,
-'LEC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'ATLS_4214',
-make_time(16,00,00),
-make_time(17,15,00),
-'MW',
-'G. Greenstreet'
-);
-INSERT INTO course_data
- VALUES
-(
-36125,
-001,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'INFO_3504',
-make_time(15,30,00),
-make_time(16,45,00),
-'TTh',
-'J. Brubaker'
-);
-INSERT INTO course_data
- VALUES
-(
-23632,
-001,
-'LEC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'MCDB_4520',
-make_time(15,30,00),
-make_time(16,45,00),
-'TTh',
-'E. Chuong'
-);
-INSERT INTO course_data
- VALUES
-(
-29247,
-001,
-'LEC',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3202',
-make_time(10,00,00),
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4502',
+make_time(09,35,00),
 make_time(10,50,00),
-'MWF',
-'R. Tutmaher'
+'TTh',
+'Q. Lv'
 );
 INSERT INTO course_data
  VALUES
 (
-29402,
-001,
+28249,
+001B,
 'LEC',
 'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3287',
-make_time(15,00,00),
-make_time(15,50,00),
-'MWF',
-'A. Paradise'
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4502',
+make_time(0,0,0),
+make_time(0,0,0),
+'online',
+'Q. Lv'
 );
 INSERT INTO course_data
  VALUES
 (
-41410,
+35497,
 002,
 'LEC',
 'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3287',
-make_time(17,00,00),
-make_time(18,15,00),
-'TTh',
-'A. Shrestha'
-);
-INSERT INTO course_data
- VALUES
-(
-29187,
-001,
-'LEC',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_3656',
-make_time(09,30,00),
-make_time(10,45,00),
-'TTh',
-'J. Kallen-Brown'
-);
-INSERT INTO course_data
- VALUES
-(
-21394,
-001,
-'LEC',
-'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'APPM_4650',
-make_time(09,00,00),
-make_time(09,50,00),
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4502',
+make_time(12,40,00),
+make_time(13,30,00),
 'MWF',
 ''
 );
 INSERT INTO course_data
  VALUES
 (
-25531,
+28221,
+011,
+'LAB',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4576',
+make_time(13,50,00),
+make_time(15,30,00),
+'F',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+39449,
+011B,
+'LAB',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4576',
+make_time(0,0,0),
+make_time(0,0,0),
+'online',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+28217,
+010,
+'LEC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4576',
+make_time(12,45,00),
+make_time(14,20,00),
+'TTh',
+'S. Runnels'
+);
+INSERT INTO course_data
+ VALUES
+(
+39448,
+010B,
+'LEC',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4576',
+make_time(0,0,0),
+make_time(0,0,0),
+'online',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+35646,
+001,
+'LEC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4593',
+make_time(13,50,00),
+make_time(14,40,00),
+'MWF',
+'T. Lehman'
+);
+INSERT INTO course_data
+ VALUES
+(
+28929,
+001,
+'LEC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4622',
+make_time(13,50,00),
+make_time(14,40,00),
+'MWF',
+'D. Quigley'
+);
+INSERT INTO course_data
+ VALUES
+(
+27880,
 002,
 'LEC',
 'Main',
 'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'APPM_4650',
-make_time(09,00,00),
-make_time(09,50,00),
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4622',
+make_time(13,50,00),
+make_time(14,40,00),
 'MWF',
-'J. Fox'
+'D. Quigley'
 );
 INSERT INTO course_data
  VALUES
 (
-29153,
-100,
+28198,
+001,
 'LEC',
 'Main',
 'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4358',
-make_time(11,00,00),
-make_time(12,15,00),
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4830',
+make_time(09,35,00),
+make_time(10,50,00),
 'TTh',
-'R. Han'
+'E. Rozner'
 );
 INSERT INTO course_data
  VALUES
 (
-29155,
-101,
-'REC',
+40049,
+003,
+'LEC',
 'Main',
 'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'CSCI_4358',
-make_time(17,00,00),
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_4830',
+make_time(10,20,00),
+make_time(11,10,00),
+'MWF',
+'E. Wustrow'
+);
+INSERT INTO course_data
+ VALUES
+(
+39624,
+581,
+'LEC',
+'CE',
+'Waitlisted',
+make_date(2021,09,27),
+make_date(2021,12,10),
+'CSCI_4830',
+make_time(0,0,0),
+make_time(0,0,0),
+'online',
+'H. Kramer'
+);
+INSERT INTO course_data
+ VALUES
+(
+27061,
+011,
+'LAB',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'ATLS_4120',
+make_time(09,00,00),
+make_time(10,50,00),
+'Th',
+'A. Pierce'
+);
+INSERT INTO course_data
+ VALUES
+(
+27060,
+010,
+'LEC',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'ATLS_4120',
+make_time(09,00,00),
+make_time(10,50,00),
+'T',
+'A. Pierce'
+);
+INSERT INTO course_data
+ VALUES
+(
+39659,
+011,
+'LAB',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'ECEN_2350',
+make_time(11,00,00),
+make_time(13,20,00),
+'F',
+'F. Somenzi'
+);
+INSERT INTO course_data
+ VALUES
+(
+25253,
+010,
+'LEC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'ECEN_2350',
+make_time(17,20,00),
+make_time(18,10,00),
+'MW',
+'F. Somenzi'
+);
+INSERT INTO course_data
+ VALUES
+(
+24588,
+001,
+'LEC',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'INFO_4604',
+make_time(09,10,00),
+make_time(10,00,00),
+'MWF',
+'A. Handler'
+);
+INSERT INTO course_data
+ VALUES
+(
+40905,
+002,
+'LEC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'MCDB_4520',
+make_time(13,00,00),
+make_time(14,15,00),
+'TTh',
+'E. Chuong'
+);
+INSERT INTO course_data
+ VALUES
+(
+26845,
+001,
+'LEC',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3202',
+make_time(10,20,00),
+make_time(11,10,00),
+'MWF',
+'R. Tutmaher'
+);
+INSERT INTO course_data
+ VALUES
+(
+39718,
+002,
+'LEC',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3202',
+make_time(0,0,0),
+make_time(0,0,0),
+'online',
+'R. Tutmaher'
+);
+INSERT INTO course_data
+ VALUES
+(
+27635,
+011,
+'LAB',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3302',
+make_time(13,50,00),
+make_time(15,30,00),
+'W',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+35532,
+012,
+'LAB',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3302',
+make_time(16,10,00),
 make_time(17,50,00),
 'W',
-'R. Han'
+''
 );
 INSERT INTO course_data
  VALUES
 (
-27964,
-001,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(10,00,00),
-make_time(10,50,00),
-'MWF',
-'H. Fredricksmeyer'
-);
-INSERT INTO course_data
- VALUES
-(
-27965,
-002,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(11,00,00),
-make_time(11,50,00),
-'MWF',
-'H. Fredricksmeyer'
-);
-INSERT INTO course_data
- VALUES
-(
-28407,
-003,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(11,00,00),
-make_time(11,50,00),
-'MWF',
-'S. Stanford-Mcintyre'
-);
-INSERT INTO course_data
- VALUES
-(
-28575,
-004,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(13,00,00),
-make_time(13,50,00),
-'MWF',
-'A. Lange'
-);
-INSERT INTO course_data
- VALUES
-(
-28576,
-005,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(14,00,00),
-make_time(14,50,00),
-'MWF',
-'A. Priou'
-);
-INSERT INTO course_data
- VALUES
-(
-28584,
-006,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(09,30,00),
-make_time(10,45,00),
-'TTh',
-'A. Kowalchuk'
-);
-INSERT INTO course_data
- VALUES
-(
-28854,
-007,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(09,30,00),
-make_time(10,45,00),
-'TTh',
-'L. DE Alwis'
-);
-INSERT INTO course_data
- VALUES
-(
-28630,
-008,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(11,00,00),
-make_time(12,15,00),
-'TTh',
-'L. DE Alwis'
-);
-INSERT INTO course_data
- VALUES
-(
-28704,
-009,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(11,00,00),
-make_time(12,15,00),
-'TTh',
-'L. Giovannelli'
-);
-INSERT INTO course_data
- VALUES
-(
-28706,
+26956,
 010,
-'SEM',
+'LEC',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(12,30,00),
-make_time(13,45,00),
-'TTh',
-'A. Turner'
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3302',
+make_time(15,55,00),
+make_time(17,10,00),
+'T',
+'B. Hayes'
 );
 INSERT INTO course_data
  VALUES
 (
-29750,
-011,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(14,00,00),
-make_time(15,15,00),
-'TTh',
-'A. Turner'
-);
-INSERT INTO course_data
- VALUES
-(
-41443,
-012,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(09,00,00),
-make_time(09,50,00),
-'MWF',
-'A. Lange'
-);
-INSERT INTO course_data
- VALUES
-(
-28802,
-013,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(15,00,00),
-make_time(15,50,00),
-'MWF',
-'A. Priou'
-);
-INSERT INTO course_data
- VALUES
-(
-42104,
-014,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(11,00,00),
-make_time(11,50,00),
-'MWF',
-'A. Priou'
-);
-INSERT INTO course_data
- VALUES
-(
-28797,
-800,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_1010',
-make_time(11,00,00),
-make_time(11,50,00),
-'MWF',
-'D. Axel'
-);
-INSERT INTO course_data
- VALUES
-(
-27966,
-001,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_3100',
-make_time(09,00,00),
-make_time(09,50,00),
-'MWF',
-'A. Priou'
-);
-INSERT INTO course_data
- VALUES
-(
-27968,
-003,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_3100',
-make_time(10,00,00),
-make_time(10,50,00),
-'MWF',
-'A. Lange'
-);
-INSERT INTO course_data
- VALUES
-(
-28317,
-004,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_3100',
-make_time(13,00,00),
-make_time(13,50,00),
-'MWF',
-'H. Fredricksmeyer'
-);
-INSERT INTO course_data
- VALUES
-(
-28738,
-005,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_3100',
-make_time(14,00,00),
-make_time(14,50,00),
-'MWF',
-'P. Diduch'
-);
-INSERT INTO course_data
- VALUES
-(
-28778,
-006,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_3100',
-make_time(15,00,00),
-make_time(16,15,00),
-'MW',
-'P. Diduch'
-);
-INSERT INTO course_data
- VALUES
-(
-28855,
-007,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_3100',
-make_time(12,30,00),
-make_time(13,45,00),
-'TTh',
-'A. Kowalchuk'
-);
-INSERT INTO course_data
- VALUES
-(
-28998,
-008,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'HUEN_3100',
-make_time(14,00,00),
-make_time(15,15,00),
-'TTh',
-'A. Kowalchuk'
-);
-INSERT INTO course_data
- VALUES
-(
-24631,
+39670,
 001,
 'LEC',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'PHYS_3050',
-make_time(15,00,00),
-make_time(16,15,00),
-'MW',
-'D. Wilkerson'
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3434',
+make_time(11,00,00),
+make_time(12,25,00),
+'TTh',
+'R. Frongillo'
 );
 INSERT INTO course_data
  VALUES
 (
-23083,
+27191,
 002,
-'SEM',
+'LEC',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(09,00,00),
-make_time(09,50,00),
-'MWF',
-'P. Wenger'
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3434',
+make_time(11,00,00),
+make_time(12,25,00),
+'TTh',
+'R. Frongillo'
 );
 INSERT INTO course_data
  VALUES
 (
-22771,
+27479,
+001,
+'LEC',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'CSCI_3656',
+make_time(11,00,00),
+make_time(12,20,00),
+'MWF',
+'P. Constantine'
+);
+INSERT INTO course_data
+ VALUES
+(
+17014,
+001,
+'LEC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'APPM_4650',
+make_time(09,10,00),
+make_time(10,00,00),
+'MWF',
+''
+);
+INSERT INTO course_data
+ VALUES
+(
+21492,
+002,
+'LEC',
+'Main',
+'Open',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'APPM_4650',
+make_time(13,50,00),
+make_time(14,40,00),
+'MWF',
+'A. Gillman'
+);
+INSERT INTO course_data
+ VALUES
+(
+14396,
 003,
 'SEM',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
 'WRTG_3020',
-make_time(09,00,00),
-make_time(09,50,00),
+make_time(09,10,00),
+make_time(10,00,00),
 'MWF',
-'L. Jacobs'
+'A. Abiragi'
 );
 INSERT INTO course_data
  VALUES
 (
-19399,
+20712,
 004,
 'SEM',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
 'WRTG_3020',
-make_time(09,00,00),
-make_time(09,50,00),
-'MWF',
-'M. Turk'
-);
-INSERT INTO course_data
- VALUES
-(
-35731,
-008,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
+make_time(09,10,00),
 make_time(10,00,00),
-make_time(10,50,00),
 'MWF',
-'L. Jacobs'
+'T. Ferrell'
 );
 INSERT INTO course_data
  VALUES
 (
-19834,
-009,
+35028,
+005,
 'SEM',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
 'WRTG_3020',
+make_time(09,10,00),
 make_time(10,00,00),
-make_time(10,50,00),
 'MWF',
-'S. Barkin'
+'D. Fernandes'
 );
 INSERT INTO course_data
  VALUES
 (
-24163,
-011,
+15148,
+007,
 'SEM',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
 'WRTG_3020',
-make_time(10,00,00),
-make_time(10,50,00),
-'MWF',
-'E. Burger'
-);
-INSERT INTO course_data
- VALUES
-(
-24705,
-012,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(10,00,00),
-make_time(10,50,00),
-'MWF',
-'M. Turk'
-);
-INSERT INTO course_data
- VALUES
-(
-35732,
-015,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(11,00,00),
-make_time(11,50,00),
-'MWF',
-'L. Szentkiralyi'
-);
-INSERT INTO course_data
- VALUES
-(
-19835,
-016,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(11,00,00),
-make_time(11,50,00),
-'MWF',
-'D. Long'
-);
-INSERT INTO course_data
- VALUES
-(
-20019,
-017,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(11,00,00),
-make_time(11,50,00),
-'MWF',
-'S. Barkin'
-);
-INSERT INTO course_data
- VALUES
-(
-21994,
-019,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(12,00,00),
-make_time(12,50,00),
-'MWF',
-'C. Alber'
-);
-INSERT INTO course_data
- VALUES
-(
-19911,
-020,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(12,00,00),
-make_time(12,50,00),
-'MWF',
-'R. Melgoza'
-);
-INSERT INTO course_data
- VALUES
-(
-19912,
-021,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(12,00,00),
-make_time(12,50,00),
-'MWF',
-'A. Daigle'
-);
-INSERT INTO course_data
- VALUES
-(
-35743,
-022,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(12,00,00),
-make_time(12,50,00),
-'MWF',
-'E. Hutson'
-);
-INSERT INTO course_data
- VALUES
-(
-19913,
-025,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(13,00,00),
-make_time(13,50,00),
-'MWF',
-'S. Barkin'
-);
-INSERT INTO course_data
- VALUES
-(
-19914,
-026,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(13,00,00),
-make_time(13,50,00),
-'MWF',
-'T. Von Der Nuell'
-);
-INSERT INTO course_data
- VALUES
-(
-23981,
-027,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(13,00,00),
-make_time(13,50,00),
-'MWF',
-'R. Melgoza'
-);
-INSERT INTO course_data
- VALUES
-(
-24587,
-028,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(13,00,00),
-make_time(13,50,00),
-'MWF',
-'C. Alber'
-);
-INSERT INTO course_data
- VALUES
-(
-23756,
-030,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(14,00,00),
-make_time(14,50,00),
-'MWF',
-'D. Long'
-);
-INSERT INTO course_data
- VALUES
-(
-19916,
-031,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(14,00,00),
-make_time(14,50,00),
-'MWF',
-'T. Von Der Nuell'
-);
-INSERT INTO course_data
- VALUES
-(
-24313,
-032,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(14,00,00),
-make_time(14,50,00),
-'MWF',
-'E. Burger'
-);
-INSERT INTO course_data
- VALUES
-(
-23188,
-033,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(14,00,00),
-make_time(14,50,00),
+make_time(10,20,00),
+make_time(11,10,00),
 'MWF',
 'M. Albert'
 );
 INSERT INTO course_data
  VALUES
 (
-19917,
-035,
+15149,
+008,
 'SEM',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
 'WRTG_3020',
-make_time(15,00,00),
-make_time(16,15,00),
-'MW',
-'D. Colley'
-);
-INSERT INTO course_data
- VALUES
-(
-19918,
-036,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(15,00,00),
-make_time(16,15,00),
-'MW',
-'R. Dickson'
-);
-INSERT INTO course_data
- VALUES
-(
-19915,
-037,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(15,00,00),
-make_time(16,15,00),
-'MW',
-'A. Feldman'
-);
-INSERT INTO course_data
- VALUES
-(
-24159,
-038,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(15,00,00),
-make_time(16,15,00),
-'MW',
-'M. Henningsen'
-);
-INSERT INTO course_data
- VALUES
-(
-35744,
-039,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(15,00,00),
-make_time(16,15,00),
-'MW',
-'K. Reilly'
-);
-INSERT INTO course_data
- VALUES
-(
-19976,
-043,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(16,30,00),
-make_time(17,45,00),
-'MW',
-'K. Reilly'
-);
-INSERT INTO course_data
- VALUES
-(
-22772,
-044,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(16,30,00),
-make_time(17,45,00),
-'MW',
-'D. Wilkerson'
-);
-INSERT INTO course_data
- VALUES
-(
-25405,
-045,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(16,30,00),
-make_time(17,45,00),
-'MW',
-'S. Holman'
-);
-INSERT INTO course_data
- VALUES
-(
-37571,
-046,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(16,30,00),
-make_time(17,45,00),
-'MW',
-'S. Massey-Warren'
-);
-INSERT INTO course_data
- VALUES
-(
-19981,
-051,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(09,30,00),
-make_time(10,45,00),
-'TTh',
-'S. Byrd'
-);
-INSERT INTO course_data
- VALUES
-(
-35745,
-053,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(09,30,00),
-make_time(10,45,00),
-'TTh',
-'J. Knowlton'
-);
-INSERT INTO course_data
- VALUES
-(
-24315,
-057,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(11,00,00),
-make_time(12,15,00),
-'TTh',
-'P. Kratzke'
-);
-INSERT INTO course_data
- VALUES
-(
-24316,
-058,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(11,00,00),
-make_time(12,15,00),
-'TTh',
-'J. Ellis'
-);
-INSERT INTO course_data
- VALUES
-(
-35746,
-059,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(11,00,00),
-make_time(12,15,00),
-'TTh',
-'C. Kunce'
-);
-INSERT INTO course_data
- VALUES
-(
-23522,
-065,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(12,30,00),
-make_time(13,45,00),
-'TTh',
-'A. Abiragi'
-);
-INSERT INTO course_data
- VALUES
-(
-23523,
-066,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(12,30,00),
-make_time(13,45,00),
-'TTh',
-'P. Kratzke'
-);
-INSERT INTO course_data
- VALUES
-(
-21996,
-067,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(12,30,00),
-make_time(13,45,00),
-'TTh',
-'T. Ferrell'
-);
-INSERT INTO course_data
- VALUES
-(
-21995,
-068,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(12,30,00),
-make_time(13,45,00),
-'TTh',
-'J. Ellis'
-);
-INSERT INTO course_data
- VALUES
-(
-21997,
-073,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(14,00,00),
-make_time(15,15,00),
-'TTh',
-'T. Ferrell'
-);
-INSERT INTO course_data
- VALUES
-(
-24317,
-074,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(14,00,00),
-make_time(15,15,00),
-'TTh',
-'N. Stohlman'
-);
-INSERT INTO course_data
- VALUES
-(
-24164,
-075,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(14,00,00),
-make_time(15,15,00),
-'TTh',
-'L. Gries'
-);
-INSERT INTO course_data
- VALUES
-(
-19978,
-084,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(15,30,00),
-make_time(16,45,00),
-'TTh',
-'S. Byrd'
-);
-INSERT INTO course_data
- VALUES
-(
-24061,
-085,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(15,30,00),
-make_time(16,45,00),
-'TTh',
-'S. Myers'
-);
-INSERT INTO course_data
- VALUES
-(
-24588,
-086,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(15,30,00),
-make_time(16,45,00),
-'TTh',
-'J. Krywicki'
-);
-INSERT INTO course_data
- VALUES
-(
-22438,
-091,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(17,00,00),
-make_time(18,15,00),
-'TTh',
-'V. House'
-);
-INSERT INTO course_data
- VALUES
-(
-38202,
-300E,
-'SEM',
-'CE',
-'Open',
-make_date(2019,01,27),
-make_date(2019,04,27),
-'WRTG_3020',
-make_time(18,00,00),
-make_time(19,30,00),
-'M',
-'A. Daigle'
-);
-INSERT INTO course_data
- VALUES
-(
-38204,
-400E,
-'SEM',
-'CE',
-'Open',
-make_date(2019,02,18),
-make_date(2019,04,28),
-'WRTG_3020',
-make_time(16,30,00),
-make_time(18,00,00),
-'T',
-'E. Hutson'
-);
-INSERT INTO course_data
- VALUES
-(
-19398,
-550R,
-'SEM',
-'Main',
-'Open',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(18,30,00),
-make_time(21,00,00),
-'M',
-'R. DeCleene'
-);
-INSERT INTO course_data
- VALUES
-(
-38672,
-581,
-'SEM',
-'CE',
-'Open',
-make_date(2019,01,21),
-make_date(2019,05,01),
-'WRTG_3020',
-make_time(0,0,0),
-make_time(0,0,0),
-'online',
-'C. Eisert'
-);
-INSERT INTO course_data
- VALUES
-(
-38673,
-582,
-'SEM',
-'CE',
-'Waitlisted',
-make_date(2019,01,21),
-make_date(2019,05,01),
-'WRTG_3020',
-make_time(0,0,0),
-make_time(0,0,0),
-'online',
-'D. Colley'
-);
-INSERT INTO course_data
- VALUES
-(
-38674,
-583,
-'SEM',
-'CE',
-'Open',
-make_date(2019,01,21),
-make_date(2019,05,01),
-'WRTG_3020',
-make_time(0,0,0),
-make_time(0,0,0),
-'online',
-'L. Jacobs'
-);
-INSERT INTO course_data
- VALUES
-(
-38675,
-584,
-'SEM',
-'CE',
-'Waitlisted',
-make_date(2019,01,21),
-make_date(2019,05,01),
-'WRTG_3020',
-make_time(0,0,0),
-make_time(0,0,0),
-'online',
-'D. Levine'
-);
-INSERT INTO course_data
- VALUES
-(
-38676,
-585,
-'SEM',
-'CE',
-'Open',
-make_date(2019,01,21),
-make_date(2019,05,01),
-'WRTG_3020',
-make_time(0,0,0),
-make_time(0,0,0),
-'online',
-'D. Debella'
-);
-INSERT INTO course_data
- VALUES
-(
-38677,
-586,
-'SEM',
-'CE',
-'Open',
-make_date(2019,01,21),
-make_date(2019,05,01),
-'WRTG_3020',
-make_time(0,0,0),
-make_time(0,0,0),
-'online',
-'C. Ostro'
-);
-INSERT INTO course_data
- VALUES
-(
-38678,
-587,
-'SEM',
-'CE',
-'Open',
-make_date(2019,01,21),
-make_date(2019,05,01),
-'WRTG_3020',
-make_time(0,0,0),
-make_time(0,0,0),
-'online',
-'P. Kratzke'
-);
-INSERT INTO course_data
- VALUES
-(
-38679,
-588,
-'SEM',
-'CE',
-'Waitlisted',
-make_date(2019,01,21),
-make_date(2019,05,01),
-'WRTG_3020',
-make_time(0,0,0),
-make_time(0,0,0),
-'online',
-'M. Henningsen'
-);
-INSERT INTO course_data
- VALUES
-(
-21062,
-800,
-'SEM',
-'Main',
-'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
-'WRTG_3020',
-make_time(11,00,00),
-make_time(11,50,00),
+make_time(10,20,00),
+make_time(11,10,00),
 'MWF',
-'A. Feldman'
+'T. Ferrell'
 );
 INSERT INTO course_data
  VALUES
 (
-21116,
-803,
+18846,
+009,
 'SEM',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
+'WRTG_3020',
+make_time(10,20,00),
+make_time(11,10,00),
+'MWF',
+'P. Kratzke'
+);
+INSERT INTO course_data
+ VALUES
+(
+15184,
+014,
+'SEM',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
 'WRTG_3020',
 make_time(11,00,00),
-make_time(12,15,00),
-'TTh',
-'S. Green'
+make_time(12,20,00),
+'MWF',
+'D. Long'
 );
 INSERT INTO course_data
  VALUES
 (
-24879,
-805,
+22537,
+015,
 'SEM',
 'Main',
 'Waitlisted',
-make_date(2019,01,13),
-make_date(2019,04,30),
+make_date(2021,08,23),
+make_date(2021,12,09),
 'WRTG_3020',
-make_time(12,30,00),
-make_time(13,45,00),
-'TTh',
-'S. Green'
+make_time(11,00,00),
+make_time(12,20,00),
+'MWF',
+'P. Kratzke'
+);
+INSERT INTO course_data
+ VALUES
+(
+15185,
+018,
+'SEM',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'WRTG_3020',
+make_time(12,40,00),
+make_time(13,30,00),
+'MWF',
+'R. Monico'
+);
+INSERT INTO course_data
+ VALUES
+(
+19349,
+019,
+'SEM',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'WRTG_3020',
+make_time(12,40,00),
+make_time(13,30,00),
+'MWF',
+'T. Von Der Nuell'
+);
+INSERT INTO course_data
+ VALUES
+(
+15186,
+020,
+'SEM',
+'Main',
+'Waitlisted',
+make_date(2021,08,23),
+make_date(2021,12,09),
+'WRTG_3020',
+make_time(12,40,00),
+make_time(13,30,00),
+'MWF',
+'A. Abiragi'
 );

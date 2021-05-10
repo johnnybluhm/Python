@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 
@@ -31,9 +32,9 @@ for courses in class_array:
             course_name=subject+' '+course_number
             final_string.append(course_name)
 
-
-
-driver = webdriver.Chrome()
+#https://stackoverflow.com/questions/60296873/sessionnotcreatedexception-message-session-not-created-this-version-of-chrome/62127806
+driver = webdriver.Chrome(ChromeDriverManager().install())
+#driver = webdriver.Chrome()
 wait = WebDriverWait(driver, 1)
 
 
