@@ -7,11 +7,11 @@ from pprint import pprint
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
 from webdriver_manager.chrome import ChromeDriverManager
+import json
 
 
-
+#reads in degree_audit.txt and adds those classes to class array
 courses  = open("degree_audit.txt").read()
 split=courses.split("\n")
 class_array=[]
@@ -21,6 +21,7 @@ for course in split:
 
 final_string=[]
 
+#parse class array
 for courses in class_array:
     subject=courses[0][0:4]
     for index, course_number in enumerate(courses):
@@ -185,7 +186,7 @@ for index,sel in enumerate(course_sel):
 
 driver.close()
 
-
+print("Scraped succesfully")
 
 #HAVE CLASS DATA
 #
@@ -195,7 +196,7 @@ driver.close()
 #BRAINSTORM
 #first class selection determined by scarcity, display options for least dependent class then 
 #do this over and over again.
-class_file= open("class_array.txt", "w")
+class_file= open("class_info.txt", "w")
 
 for course in course_list:
 
@@ -226,30 +227,15 @@ for course in course_list:
 
 
 
-
+print("Wrote data to class_array.txt succesfully")
 class_file.close()
-db_file= open("insert_tables.sql", "w")
-    
-for course in course_list:
 
-    for index,option in enumerate(course):
-        db_string ='INSERT INTO course_data\n VALUES\n(\n'
-        db_string += option['Class Nbr:']+',\n'
-        db_string += option['Section #:']+',\n'
-        db_string += '\''+option['Type:']+'\',\n'
-        db_string += '\''+option['Campus:']+'\',\n'
-        db_string += '\''+option['Status:']+'\',\n'
-        db_string += 'make_date('+option['start_date']+'),\n'
-        db_string += 'make_date('+option['end_date']+'),\n'
-        db_string += '\''+option['name']+'\',\n'
-        db_string += 'make_time('+option['start_time']+'),\n'
-        db_string += 'make_time('+option['end_time']+'),\n'
-        db_string += '\''+option['Meets:']+'\',\n'
-        db_string += '\''+option['Instructor:']+'\'\n);\n'
-        db_file.write(db_string)
+with open('class_json.txt', 'w') as outfile:
+    json.dump(course_list, outfile)
 
-db_file.close()
-print("executed normally")
+
+print("Exited as expected")
+
 
 
 
