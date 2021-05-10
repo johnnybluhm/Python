@@ -17,7 +17,10 @@ for course in course_list:
             db_string += option['Class Nbr:']+',\n'
         else:
             db_string += '00000'+',\n'
-        db_string += option['Section #:']+',\n'
+        if len(option['Section #:'])>3:
+            db_string += option['Section #:'][0:2]+',\n'
+        else:
+            db_string += option['Section #:']+',\n'
         db_string += '\''+option['Type:']+'\',\n'
         db_string += '\''+option['Campus:']+'\',\n'
         db_string += '\''+option['Status:']+'\',\n'

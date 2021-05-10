@@ -802,7 +802,7 @@ INSERT INTO course_data
  VALUES
 (
 35575,
-100B,
+10,
 'LEC',
 'Main',
 'Open',
@@ -1122,7 +1122,7 @@ INSERT INTO course_data
  VALUES
 (
 25343,
-010B,
+01,
 'LEC',
 'Main',
 'Open',
@@ -1133,22 +1133,6 @@ make_time(0,0,0),
 make_time(0,0,0),
 'online',
 'S. Nath'
-);
-INSERT INTO course_data
- VALUES
-(
-26941,
-001,
-'LEC',
-'Main',
-'Open',
-make_date(2021,08,23),
-make_date(2021,12,09),
-'CSCI_3287',
-make_time(15,00,00),
-make_time(15,50,00),
-'MWF',
-'A. Paradise'
 );
 INSERT INTO course_data
  VALUES
@@ -1197,22 +1181,6 @@ make_time(15,00,00),
 make_time(15,50,00),
 'MWF',
 'A. Paradise'
-);
-INSERT INTO course_data
- VALUES
-(
-28238,
-002,
-'LEC',
-'Main',
-'Open',
-make_date(2021,08,23),
-make_date(2021,12,09),
-'CSCI_3287',
-make_time(17,30,00),
-make_time(18,45,00),
-'TTh',
-'A. Shrestha'
 );
 INSERT INTO course_data
  VALUES
@@ -1522,7 +1490,7 @@ INSERT INTO course_data
  VALUES
 (
 28243,
-001B,
+00,
 'LEC',
 'Main',
 'Waitlisted',
@@ -1554,7 +1522,7 @@ INSERT INTO course_data
  VALUES
 (
 39655,
-001B,
+00,
 'LEC',
 'Main',
 'Waitlisted',
@@ -1618,7 +1586,7 @@ INSERT INTO course_data
  VALUES
 (
 28928,
-001B,
+00,
 'LEC',
 'Main',
 'Open',
@@ -1650,7 +1618,7 @@ INSERT INTO course_data
  VALUES
 (
 40572,
-003B,
+00,
 'LEC',
 'Main',
 'Waitlisted',
@@ -1682,7 +1650,7 @@ INSERT INTO course_data
  VALUES
 (
 28249,
-001B,
+00,
 'LEC',
 'Main',
 'Open',
@@ -2146,7 +2114,7 @@ INSERT INTO course_data
  VALUES
 (
 40572,
-003B,
+00,
 'LEC',
 'Main',
 'Waitlisted',
@@ -2898,7 +2866,7 @@ INSERT INTO course_data
  VALUES
 (
 40275,
-300E,
+30,
 'SEM',
 'CE',
 'Open',
@@ -2914,7 +2882,7 @@ INSERT INTO course_data
  VALUES
 (
 40276,
-400E,
+40,
 'SEM',
 'CE',
 'Open',
