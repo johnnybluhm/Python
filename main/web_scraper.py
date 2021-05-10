@@ -12,10 +12,10 @@ import json
 import os
 from pathlib import Path
 
-current_dir = Path('.')
-degree_audit_loc = os.path.join(current_dir, "data_files", "degree_audit.txt")
-class_info_loc = os.path.join(current_dir, "data_files", "class_info.txt")
-class_json_loc = os.path.join(current_dir, "data_files", "class_json.txt")
+parent_dir = Path('..')
+degree_audit_loc = os.path.join(parent_dir, "data_files", "degree_audit.txt")
+class_info_loc = os.path.join(parent_dir, "data_files", "class_info.txt")
+class_json_loc = os.path.join(parent_dir, "data_files", "class_json.txt")
 
 
 #reads in degree_audit.txt and adds those classes to class array
