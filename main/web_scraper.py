@@ -9,10 +9,17 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 import json
+import os
+from pathlib import Path
+
+current_dir = Path('.')
+degree_audit_loc = os.path.join(current_dir, "data_files", "degree_audit.txt")
+class_info_loc = os.path.join(current_dir, "data_files", "class_info.txt")
+class_json_loc = os.path.join(current_dir, "data_files", "class_json.txt")
 
 
 #reads in degree_audit.txt and adds those classes to class array
-courses  = open("degree_audit.txt").read()
+courses  = open(degree_audit_loc).read()
 split=courses.split("\n")
 class_array=[]
 for course in split:
@@ -38,11 +45,6 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 #driver = webdriver.Chrome()
 wait = WebDriverWait(driver, 1)
 
-
-
-#opens browser
-
-
 #hard code class values for now
 course_list = []
 course_sel = final_string
@@ -56,7 +58,6 @@ for index,sel in enumerate(course_sel):
     driver.get("https://classes.colorado.edu/")
 
     subj= sel.split()
-
 
     #gets text box to search for classes
     inputElement = driver.find_element_by_id("crit-keyword")
@@ -96,7 +97,6 @@ for index,sel in enumerate(course_sel):
     
         table= table.get_attribute('outerHTML')
         soup=BeautifulSoup(table, 'html.parser')
-
 
         #anchor tags have all course info, is an array
         courses = soup.find_all("a")
@@ -189,14 +189,8 @@ driver.close()
 print("Scraped succesfully")
 
 #HAVE CLASS DATA
-#
-#
-#
-#
-#BRAINSTORM
-#first class selection determined by scarcity, display options for least dependent class then 
-#do this over and over again.
-class_file= open("class_info.txt", "w")
+
+class_file= open(class_info_loc, "w")
 
 for course in course_list:
 
@@ -230,16 +224,8 @@ for course in course_list:
 print("Wrote data to class_array.txt succesfully")
 class_file.close()
 
-with open('class_json.txt', 'w') as outfile:
+with open(class_json_loc, 'w') as outfile:
     json.dump(course_list, outfile)
 
 
 print("Exited as expected")
-
-
-
-
-
-
-
-

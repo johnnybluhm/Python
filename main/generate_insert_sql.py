@@ -1,9 +1,14 @@
 import json
+import os
+import sys
+from pathlib import Path
+parent_dir = Path('..')
 
-db_file= open("insert_tables.sql", "w")
-with open('class_json.txt') as f:
+db_file = open(os.path.join(parent_dir, "sql_scripts", "insert_tables.sql"), 'w')
+class_json_loc = os.path.join(parent_dir, "data_files", "class_json.txt")
+
+with open(class_json_loc) as f:
     course_list = json.load(f)
-
 for course in course_list:
 
     for index,option in enumerate(course):
